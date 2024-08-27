@@ -140,3 +140,19 @@
 
   mix-blend-mode: multiply;
 }
+
+.logoContainer {
+  position: relative;
+  margin: 10px;
+  height: 90px;
+  width: 150px;
+  justify-self: center;
+}
+
+.logoText {
+  position: absolute;
+  pointer-events: none;
+  top: -29px;
+  max-width: 119px;
+  margin-left: 16px;
+}

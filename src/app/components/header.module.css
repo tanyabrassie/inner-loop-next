@@ -1,0 +1,69 @@
+.headerContainer {
+  display: grid;
+  position: sticky;
+  top: 0;
+  grid-template-rows: 0.5fr 1.5fr 1fr;
+
+  align-items: center;
+  justify-content: flex-end;
+
+  padding: 30px 15px;
+  flex-basis: 20%;
+
+  @media screen and (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    grid-gap: 100px;
+  }
+}
+
+.aboutText {
+  font-family: monospace;
+  text-align: right;
+  line-height: 1.8;
+  font-size: 12px;
+}
+
+.sayHi {
+  font-family: monospace;
+  text-align: right;
+  padding-top: 10px;
+}
+
+.links {
+  display: flex;
+  align-self: flex-start;
+  padding-top: 3px;
+  justify-content: center;
+
+  @media screen and (max-width: 1024px) {
+    align-self: center;
+  }
+}
+
+.link {
+  color: unset;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+  transition: border 0.2s;
+  &:hover {
+    border-bottom: 1px solid #464545;
+  }
+}
+
+.circle {
+  padding: 3px 10px;
+  cursor: default;
+}
+
+.aboutContainer {
+  align-self: flex-end;
+
+  @media screen and (max-width: 1024px) {
+    align-self: center;
+    width: 100%;
+    border-top: 1px solid black;
+  }
+}

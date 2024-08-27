@@ -1,26 +1,9 @@
 'use client';
-
 import { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import innerLoopText from '../../inner-loop-text.svg';
 import './logo.css';
 import { addEyeMotion } from './eyeMotion';
-
-const LogoContainer = styled.div`
-  position: relative;
-  margin: 10px;
-  height: 90px;
-  width: 150px;
-  justify-self: center;
-`;
-
-const Text = styled.img`
-  position: absolute;
-  pointer-events: none;
-  top: -29px;
-  max-width: 119px;
-  margin-left: 16px;
-`;
 
 const leftColors = {
   //purple: '#efcbff',
@@ -185,9 +168,13 @@ export const Logo = () => {
   }, []);
 
   return (
-    <LogoContainer>
+    <div className='logoContainer'>
       {isMoved && <ResetButton onClick={resetPosition}></ResetButton>}
-      <Text alt='inner loop logo text' src={innerLoopText.src} />
+      <img
+        className='logoText'
+        alt='inner loop logo text'
+        src={innerLoopText.src}
+      />
       <div
         ref={leftOutlineRef}
         className='left-outline eye-left draggable'
@@ -223,6 +210,6 @@ export const Logo = () => {
         ref={rightEyeTwoRef}
         className='eye pupil-outline-right-two draggable '
       ></div>
-    </LogoContainer>
+    </div>
   );
 };

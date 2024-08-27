@@ -1,0 +1,38 @@
+.contentSection {
+  padding: 40px;
+  width: calc(100% - 5%);
+  justify-content: center;
+  position: relative;
+
+  display: grid;
+  margin: auto;
+
+  grid-gap: 40px;
+
+  grid-template-areas: 'recent sticky';
+  grid-template-columns: 65% 35%;
+
+  @media screen and (max-width: 1024px) {
+    display: unset;
+    padding: 0px;
+  }
+}
+
+.stickyColumn {
+  grid-area: sticky;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 40px;
+  top: 40px;
+  align-self: start;
+
+  @media screen and (max-width: 1024px) {
+    /* position: relative; */
+    margin: 40px 0;
+  }
+}
+
+.recentPrints {
+  grid-area: recent;
+}

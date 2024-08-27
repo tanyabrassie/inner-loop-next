@@ -1,0 +1,32 @@
+.displayType {
+  font-family: 'alfarn-2', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.jazzyLetters {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+
+  &:hover {
+    color: #464545;
+
+    .jazzyLetter {
+      display: inline-block;
+      color: #955ffb;
+      transform: rotate(10deg);
+    }
+  }
+}
+
+.link {
+  color: unset;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+  transition: border 0.2s;
+  &:hover {
+    border-bottom: 1px solid #464545;
+  }
+}

@@ -1,0 +1,22 @@
+@keyframes slideAway {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.loadingScreen {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: black;
+  transform: translateX(122%);
+
+  animation-delay: 0.3s;
+  animation: slideAway 1.3s;
+}

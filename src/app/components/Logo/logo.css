@@ -152,6 +152,7 @@
 .logoText {
   position: absolute;
   pointer-events: none;
+  user-select: none;
   top: -29px;
   max-width: 119px;
   margin-left: 16px;

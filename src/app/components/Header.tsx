@@ -10,7 +10,7 @@ const Header = () => {
       <div className={headerStyles.links}>
         <a
           className={typographyStyles.link}
-          href='https://store.innerloop.press'
+          href='https://innerloop.squarespace.com/'
         >
           <JazzyText text='Store' />
         </a>

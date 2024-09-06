@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from "styled-components";
 
 const ContentContainer = styled.div`
   padding: 30px 20px 20px;
@@ -31,7 +31,7 @@ const ListItem = styled.li<{ time: string }>`
   }
 
   &::before {
-    content: '⎗';
+    content: "⎗";
     display: inline-block;
     font-weight: 800;
     font-size: 27px;
@@ -43,15 +43,10 @@ const ListItem = styled.li<{ time: string }>`
   }
 `;
 
-const SectionHeader = styled.h2`
-  font-weight: bold;
-  font-size: 12px;
-`;
-
 export const FairContent = ({ test }: any) => {
   return (
     <ContentContainer>
-      <SectionHeader>Upcoming & Recent Fairs</SectionHeader>
+      Upcoming & Recent Fairs
       <List>
         <ListItem time={`.4s`}>Fall events to be announced!</ListItem>
         {/* <ListItem time={`.4s`}>

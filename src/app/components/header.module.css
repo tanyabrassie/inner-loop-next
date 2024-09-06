@@ -1,5 +1,22 @@
 .headerContainer {
   display: grid;
+  height: 100%;
+  top: 0;
+  grid-template-rows: 0.5fr 1.5fr 1fr;
+
+  align-items: center;
+  justify-content: flex-end;
+
+  @media screen and (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    grid-gap: 100px;
+  }
+}
+
+.header {
+  height: 100%;
   position: sticky;
   top: 0;
   grid-template-rows: 0.5fr 1.5fr 1fr;
@@ -16,6 +33,10 @@
     flex-basis: 100%;
     grid-gap: 100px;
   }
+}
+
+.locatedIn {
+  text-transform: underline;
 }
 
 .aboutText {

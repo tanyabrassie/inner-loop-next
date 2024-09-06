@@ -43,7 +43,7 @@ export const NewsContent = () => {
       <a href={storeLink}>
         <Image src={featuredCover.src} alt='image of Space Trash zine cover' />
       </a>
-      Toxic Lagoons - Southern Edition is now available! The last in the Toxic
+      Toxic Lagoons: Southern Edition is now available! The last in the Toxic
       Lagoons series, this risograph printed zine examines very polluted places
       called Superfund sites in the southern United States.
     </ContentContainer>

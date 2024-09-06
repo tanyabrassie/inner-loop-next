@@ -11,8 +11,11 @@
 
 .emailContainer {
   position: relative;
+  text-decoration: underline;
 }
 
-.emailText {
-  cursor: pointer;
+.emailContainer:hover {
+  scale: 1.1;
+  transition: scale 0.2s;
+  text-decoration: none;
 }

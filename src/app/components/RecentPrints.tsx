@@ -21,13 +21,14 @@ import leisurePoster from '../images/leisure.jpg';
 const ContentContainer = styled.div`
   padding: 20px;
   background-color: black;
+  /* background-color: #161616; */
   columns: 20rem;
 `;
 
 const Image = styled.img`
   width: 100%;
   padding: 20px;
-  background-blend-mode: multiply;
+  /* mix-blend-mode: screen; */
 `;
 
 const Text = styled.strong`

@@ -32,7 +32,7 @@ const Header = () => {
             <br /> <strong>Philadelphia, PA</strong>
           </p>
           <div className={headerStyles.sayHi}>
-            <i>Say Hi:</i> <br />
+            <i>Contact:</i> <br />
             <EmailLink />
           </div>
         </div>

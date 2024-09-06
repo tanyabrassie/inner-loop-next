@@ -8,7 +8,7 @@
   justify-content: flex-end;
 
   padding: 30px 15px;
-  flex-basis: 20%;
+  flex-basis: 22%;
 
   @media screen and (max-width: 1024px) {
     display: flex;
@@ -29,6 +29,7 @@
   font-family: monospace;
   text-align: right;
   padding-top: 10px;
+  font-size: 12px;
 }
 
 .links {

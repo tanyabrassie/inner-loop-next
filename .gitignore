@@ -1,3 +1,6 @@
 # This is some text
 /node_modules
 /.next/
+/next/
+/.next/*
+.next/*

@@ -28,7 +28,8 @@ const Header = () => {
           <p className={headerStyles.aboutText}>
             <i>Printing information as art!</i>
             <br></br>
-            A small-batch risograph press
+            A small-batch <br />
+            Risograph printing press
             <br /> <strong>Philadelphia, PA</strong>
           </p>
           <div className={headerStyles.sayHi}>

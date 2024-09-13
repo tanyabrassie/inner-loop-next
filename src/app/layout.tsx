@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     'riso printing',
     'Tanya Brassie',
     'inner loop press',
-    'risograph printing philadelphia',
+    'Risograph printing press philadelphia',
   ],
   description:
-    'An independent, small-batch risograph printing press in Philadelphia. Operated by Tanya Brassie.',
+    'A small-batch Risograph printing press in Philadelphia. Operated by Tanya Brassie.',
   robots: {
     index: true,
     follow: true,
@@ -33,7 +33,7 @@ const jsonLd = {
   '@type': 'Risograph Press',
   name: 'inner loop press',
   description:
-    'An independent, small-batch risograph printing press located in Philadelphia. Operated by Tanya Brassie.',
+    'A small-batch Risograph printing press in Philadelphia. Operated by Tanya Brassie.',
 };
 
 export default function RootLayout({

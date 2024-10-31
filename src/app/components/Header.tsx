@@ -8,13 +8,22 @@ const Header = () => {
   return (
     <nav className={headerStyles.headerContainer}>
       <div className={headerStyles.links}>
+        <a className={typographyStyles.link} href='/'>
+          <JazzyText text='Home' />
+        </a>
+        <a className={typographyStyles.link} href='/about'>
+          <JazzyText text='About' />
+        </a>
         <a
           className={typographyStyles.link}
           href='https://store.innerloop.press/'
         >
           <JazzyText text='Store' />
         </a>
-        <span className={headerStyles.circle}>&#9702;</span>
+
+        {/* <a className={typographyStyles.link} href='/printing'>
+          <JazzyText text='Printing' />
+        </a> */}
         <a
           className={typographyStyles.link}
           href='https://instagram.com/innerloop.press'

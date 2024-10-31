@@ -5,7 +5,6 @@ import { NewsContent } from '../NewsContent';
 import contentStyles from './content.module.css';
 
 import { FairContent } from '../FairContent';
-import { LoadScreen } from '../LoadScreen';
 // import { ServicesContent } from "./ServicesContent";
 
 // const Services = styled(SectionBox)``;
@@ -13,7 +12,6 @@ import { LoadScreen } from '../LoadScreen';
 export const Content = () => {
   return (
     <>
-      <LoadScreen />
       <main className={contentStyles.contentSection}>
         {/* RECENT PRINTS */}
         <SectionBox

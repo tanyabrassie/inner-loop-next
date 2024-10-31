@@ -1,12 +1,10 @@
 .displayType {
   font-family: 'alfarn-2', sans-serif;
-  font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
 }
 
 .jazzyLetters {
-  font-weight: 700;
   letter-spacing: 0.5px;
 
   &:hover {

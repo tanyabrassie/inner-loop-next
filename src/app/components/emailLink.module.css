@@ -18,4 +18,5 @@
   scale: 1.1;
   transition: scale 0.2s;
   text-decoration: none;
+  cursor: pointer;
 }

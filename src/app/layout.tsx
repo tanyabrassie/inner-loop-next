@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import StyledComponentsRegistry from './components/registry';
+import Header from './components/Header';
+import { LoadScreen } from './components/LoadScreen';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -43,12 +45,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={'appContainer'}>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
-        <script
-          type='application/ld+json'
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+      <body className={'appContainer'} id='screen'>
+        <StyledComponentsRegistry>
+          <script
+            type='application/ld+json'
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          />
+          <div className='App'>
+            <Header />
+            {children}
+          </div>
+        </StyledComponentsRegistry>
       </body>
     </html>
   );

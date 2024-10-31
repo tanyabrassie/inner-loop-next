@@ -51,6 +51,7 @@ export const RecentPrintContent = () => {
 
       <Image
         src={eyePoster}
+        priority={true}
         alt='image of poster with an eye inspired imagery.'
       />
 
@@ -60,43 +61,74 @@ export const RecentPrintContent = () => {
         alt='image of Space Trash zine.'
       />
 
-      <Image src={posturePoster} alt='image of Poster poster' />
+      <Image src={posturePoster} priority={true} alt='image of Poster poster' />
 
       <Image
         src={toxicLagoonsSpread}
+        priority={true}
         alt='Image of inside spread of Toxic Lagoons zine'
       />
 
-      <Image src={trianglePile} alt='triangle pile poster image' />
-      <Image src={stretchPeach} alt='image of Data Zooms poster' />
+      <Image
+        src={trianglePile}
+        priority={true}
+        alt='triangle pile poster image'
+      />
+      <Image
+        src={stretchPeach}
+        priority={true}
+        alt='image of Data Zooms poster'
+      />
 
-      <Image src={learningPoster} alt='image of Learning Poster' />
+      <Image
+        src={learningPoster}
+        priority={true}
+        alt='image of Learning Poster'
+      />
 
       <Image
         src={leisurePoster}
-        loading={'lazy'}
+        priority={true}
         alt='scan of an inside spread of e-waste zine.'
       />
 
-      <Image src={spaceTrashCover} alt='Space Trash Zine cover' />
+      <Image
+        src={spaceTrashCover}
+        priority={true}
+        alt='Space Trash Zine cover'
+      />
 
       <Image
         src={sexyBook}
+        priority={true}
         alt='image of poster with an illustration of a sexy book on it.'
       />
 
-      <Image src={natureBlur} alt='image of Nature Blur Poster' />
+      <Image
+        src={natureBlur}
+        priority={true}
+        alt='image of Nature Blur Poster'
+      />
 
       <Image
         src={eWasteSpread}
+        priority={true}
         alt='scan of an inside spread of e-waste zine.'
       />
 
-      <Image src={dataZooms} alt='image of Data Zooms poster' />
-      <Image src={spacehouse} alt='image of Space House poster' />
+      <Image src={dataZooms} priority={true} alt='image of Data Zooms poster' />
+      <Image
+        src={spacehouse}
+        priority={true}
+        alt='image of Space House poster'
+      />
 
-      <Image src={userFriendly} alt='scan of an user friendly zine cover.' />
-      <Image src={society} alt='image of Society poster' />
+      <Image
+        src={userFriendly}
+        priority={true}
+        alt='scan of an user friendly zine cover.'
+      />
+      <Image src={society} priority={true} alt='image of Society poster' />
       <Text>...more coming soon!</Text>
     </ContentContainer>
   );

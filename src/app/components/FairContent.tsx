@@ -64,11 +64,11 @@ export const FairContent = ({ test }: any) => {
             Philly Zine Fest - Nov 9, 2024
           </a>
         </ListItem>
-        {/* <ListItem time={`.4s`}>
+        <ListItem time={`.4s`}>
           <a href='https://www.stapleandstitchfair.com/'>
             Staple & Stitch - Nov 15-17, 2024
           </a>
-        </ListItem> */}
+        </ListItem>
         {/* <ListItem time={`.4s`}>
           <a href='https://www.jerseyartbookfair.org/'>
             Jersey Art Book Fair - February 2024

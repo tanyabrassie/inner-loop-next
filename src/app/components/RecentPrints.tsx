@@ -50,85 +50,129 @@ export const RecentPrintContent = () => {
       />
 
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
         src={eyePoster}
         priority={true}
         alt='image of poster with an eye inspired imagery.'
       />
 
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
         src={spaceTrashSpread}
         priority={true}
         alt='image of Space Trash zine.'
       />
 
-      <Image src={posturePoster} priority={true} alt='image of Poster poster' />
+      <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
+        src={posturePoster}
+        priority={true}
+        alt='image of Poster poster'
+      />
 
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
         src={toxicLagoonsSpread}
         priority={true}
         alt='Image of inside spread of Toxic Lagoons zine'
       />
 
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
         src={trianglePile}
         priority={true}
         alt='triangle pile poster image'
       />
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
         src={stretchPeach}
         priority={true}
         alt='image of Data Zooms poster'
       />
 
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
         src={learningPoster}
         priority={true}
         alt='image of Learning Poster'
       />
 
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 0200px) 50vw'
         src={leisurePoster}
         priority={true}
         alt='scan of an inside spread of e-waste zine.'
       />
 
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 0200px) 50vw'
         src={spaceTrashCover}
         priority={true}
         alt='Space Trash Zine cover'
       />
 
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
         src={sexyBook}
         priority={true}
         alt='image of poster with an illustration of a sexy book on it.'
       />
 
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
         src={natureBlur}
         priority={true}
         alt='image of Nature Blur Poster'
       />
 
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
         src={eWasteSpread}
         priority={true}
         alt='scan of an inside spread of e-waste zine.'
       />
 
-      <Image src={dataZooms} priority={true} alt='image of Data Zooms poster' />
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
+        src={dataZooms}
+        priority={true}
+        alt='image of Data Zooms poster'
+      />
+      <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 0200px) 50vw'
         src={spacehouse}
         priority={true}
         alt='image of Space House poster'
       />
 
       <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
         src={userFriendly}
         priority={true}
         alt='scan of an user friendly zine cover.'
       />
-      <Image src={society} priority={true} alt='image of Society poster' />
+      <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1200px0 50vw'
+        src={society}
+        priority={true}
+        alt='image of Society poster'
+      />
       <Text>...more coming soon!</Text>
     </ContentContainer>
   );

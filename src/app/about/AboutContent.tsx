@@ -15,7 +15,7 @@ export const AboutContent = () => {
           <h1 className={styles.header}>About</h1>
 
           <p>
-            inner loop press is risograph printing press located in
+            inner loop press is a risograph printing press located in
             Philadelphia, PA.
           </p>
           <p>

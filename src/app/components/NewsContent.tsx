@@ -19,7 +19,7 @@ const imageRotate = keyframes`
 `;
 
 const storeLink =
-  'https://store.innerloop.press/products/toxic-lagoons-southern-edition';
+  'https://www.store.innerloop.press/shop/p/toxic-lagoons-southern-edition';
 
 const Image = styled.img`
   width: 80%;

@@ -23,7 +23,7 @@ const ContentContainer = styled.div`
   padding: 20px;
   background-color: black;
   /* background-color: #161616; */
-  columns: 20rem;
+  columns: 200px 2;
   min-height: 100vh;
 `;
 
@@ -42,14 +42,23 @@ const Text = styled.strong`
 export const RecentPrintContent = () => {
   return (
     <ContentContainer>
-      <Image src={toxicEarth} alt='Radioactive Land Poster' />
+      <Image
+        loading={'eager'}
+        priority={true}
+        src={toxicEarth}
+        alt='Radioactive Land Poster'
+      />
 
       <Image
         src={eyePoster}
         alt='image of poster with an eye inspired imagery.'
       />
 
-      <Image src={spaceTrashSpread} alt='image of Space Trash zine.' />
+      <Image
+        src={spaceTrashSpread}
+        priority={true}
+        alt='image of Space Trash zine.'
+      />
 
       <Image src={posturePoster} alt='image of Poster poster' />
 
@@ -65,6 +74,7 @@ export const RecentPrintContent = () => {
 
       <Image
         src={leisurePoster}
+        loading={'lazy'}
         alt='scan of an inside spread of e-waste zine.'
       />
 

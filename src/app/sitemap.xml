@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://innerloop.press</loc>
-    <lastmod>2024-09-05T12:00</lastmod>
+    <lastmod>2023-010-29T10:00:24.021Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+   <url>
+    <loc>https://innerloop.press/about</loc>
+    <lastmod>2023-010-30T10:00:24.021Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>

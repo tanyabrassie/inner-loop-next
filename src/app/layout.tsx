@@ -45,6 +45,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
+      {/* <LoadScreen /> */}
       <body className={'appContainer'} id='screen'>
         <StyledComponentsRegistry>
           <script

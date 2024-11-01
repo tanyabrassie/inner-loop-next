@@ -16,7 +16,10 @@ import userFriendly from '../images/user-friendly.webp';
 import eWasteSpread from '../images/e-waste-spread.png';
 import spaceTrashCover from '../images/space-trash-cover.webp';
 import toxicLagoonsSpread from '../images/toxic-lagoons-southern-spread.jpg';
+import bloomers from '../images/bloomers.webp';
 import leisurePoster from '../images/leisure.webp';
+import materialsSpread from '../images/materials-spread.webp';
+
 import NextImage from 'next/image';
 
 const ContentContainer = styled.div`
@@ -45,6 +48,13 @@ export const RecentPrintContent = () => {
       <Image
         loading={'eager'}
         priority={true}
+        src={bloomers}
+        alt='Blooming Flowers'
+      />
+
+      <Image
+        loading={'eager'}
+        priority={true}
         src={toxicEarth}
         alt='Radioactive Land Poster'
       />
@@ -60,17 +70,17 @@ export const RecentPrintContent = () => {
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
-        src={spaceTrashSpread}
+        src={posturePoster}
         priority={true}
-        alt='image of Space Trash zine.'
+        alt='image of Poster poster'
       />
 
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
-        src={posturePoster}
+        src={spaceTrashSpread}
         priority={true}
-        alt='image of Poster poster'
+        alt='image of Space Trash zine.'
       />
 
       <Image
@@ -88,6 +98,7 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='triangle pile poster image'
       />
+
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
@@ -102,6 +113,21 @@ export const RecentPrintContent = () => {
         src={learningPoster}
         priority={true}
         alt='image of Learning Poster'
+      />
+
+      <Image
+        loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
+        src={natureBlur}
+        priority={true}
+        alt='image of Nature Blur Poster'
+      />
+
+      <Image
+        loading={'eager'}
+        priority={true}
+        src={materialsSpread}
+        alt='Materials zine inside spread.'
       />
 
       <Image
@@ -126,14 +152,6 @@ export const RecentPrintContent = () => {
         src={sexyBook}
         priority={true}
         alt='image of poster with an illustration of a sexy book on it.'
-      />
-
-      <Image
-        loading={'eager'}
-        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
-        src={natureBlur}
-        priority={true}
-        alt='image of Nature Blur Poster'
       />
 
       <Image

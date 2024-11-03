@@ -15,8 +15,8 @@ export const AboutContent = () => {
           <h1 className={styles.header}>About</h1>
 
           <p>
-            inner loop press is a risograph printing press located in
-            Philadelphia, PA.
+            inner loop press is a risograph printing press operated by Tanya
+            Brassie in Philadelphia, PA.
           </p>
           <p>
             We primarily publish educational zines on topics related to the

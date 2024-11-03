@@ -61,7 +61,7 @@ export const RecentPrintContent = () => {
 
       <Image
         loading={'eager'}
-        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
         src={eyePoster}
         priority={true}
         alt='image of poster with an eye inspired imagery.'
@@ -69,7 +69,7 @@ export const RecentPrintContent = () => {
 
       <Image
         loading={'eager'}
-        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
         src={posturePoster}
         priority={true}
         alt='image of Poster poster'
@@ -77,7 +77,7 @@ export const RecentPrintContent = () => {
 
       <Image
         loading={'eager'}
-        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
         src={spaceTrashSpread}
         priority={true}
         alt='image of Space Trash zine.'
@@ -85,7 +85,7 @@ export const RecentPrintContent = () => {
 
       <Image
         loading={'eager'}
-        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
         src={toxicLagoonsSpread}
         priority={true}
         alt='Image of inside spread of Toxic Lagoons zine'
@@ -93,7 +93,7 @@ export const RecentPrintContent = () => {
 
       <Image
         loading={'eager'}
-        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
         src={trianglePile}
         priority={true}
         alt='triangle pile poster image'
@@ -101,7 +101,7 @@ export const RecentPrintContent = () => {
 
       <Image
         loading={'eager'}
-        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
         src={stretchPeach}
         priority={true}
         alt='image of Data Zooms poster'
@@ -109,7 +109,7 @@ export const RecentPrintContent = () => {
 
       <Image
         loading={'eager'}
-        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
         src={learningPoster}
         priority={true}
         alt='image of Learning Poster'
@@ -117,7 +117,7 @@ export const RecentPrintContent = () => {
 
       <Image
         loading={'eager'}
-        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
         src={natureBlur}
         priority={true}
         alt='image of Nature Blur Poster'

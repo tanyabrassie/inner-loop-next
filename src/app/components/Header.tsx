@@ -21,9 +21,9 @@ const Header = () => {
           <JazzyText text='Store' />
         </a>
 
-        {/* <a className={typographyStyles.link} href='/printing'>
+        <a className={typographyStyles.link} href='/printing'>
           <JazzyText text='Printing' />
-        </a> */}
+        </a>
         <a
           className={typographyStyles.link}
           href='https://instagram.com/innerloop.press'

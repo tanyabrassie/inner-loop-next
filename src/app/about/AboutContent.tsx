@@ -6,11 +6,11 @@ export const AboutContent = () => {
   return (
     <main className={styles.mainWrapper}>
       <div className={styles.innerContainer}>
-        <NextImage
+        {/* <NextImage
           className={styles.tablePhoto}
           alt='the inner loop press offerings'
           src={innerLoopTable}
-        />
+        /> */}
         <div className={styles.textContent}>
           <h1 className={styles.header}>About</h1>
 

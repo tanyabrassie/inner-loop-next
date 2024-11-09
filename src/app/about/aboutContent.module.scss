@@ -4,6 +4,7 @@ $maxWidth: 600px;
 
 .mainWrapper {
   @extend .mainContent;
+  height: 100%;
   background-color: white;
   z-index: 1;
 
@@ -26,6 +27,7 @@ $maxWidth: 600px;
   @extend .paragraphContainer;
   animation-name: appear;
   animation-duration: 0.5s;
+  height: 100%;
 }
 
 .header {

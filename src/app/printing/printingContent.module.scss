@@ -2,6 +2,13 @@
 
 .mainWrapper {
   @extend .mainContent;
+  height: 100%;
+  background-color: white;
+  z-index: 1;
+
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
 }
 
 @keyframes appear {

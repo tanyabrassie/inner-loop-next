@@ -21,7 +21,7 @@ export const PrintingContent = () => {
             <li>red </li>
             <li> black</li>
           </ul>
-          <h1 className={styles.header}>Pricing</h1>
+          <h1 className={styles.header}>Pricing & Quotes</h1>
           <p>
             Pricing depends on the complexity of the project and the amount of
             colors desired. If you have a project in mind, email

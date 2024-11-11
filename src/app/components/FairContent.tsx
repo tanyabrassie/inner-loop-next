@@ -54,11 +54,11 @@ export const FairContent = ({ test }: any) => {
       <SectionHeader>Upcoming Events</SectionHeader>
       <List>
         {/* <ListItem time={`.4s`}>Fall events to be announced!</ListItem> */}
-        <ListItem time={`.4s`}>
+        {/* <ListItem time={`.4s`}>
           <a href='https://www.instagram.com/phillycomicsexpo/'>
             Philly Comics Expo - Oct 12, 2024
           </a>
-        </ListItem>
+        </ListItem> */}
         <ListItem time={`.4s`}>
           <a href='https://www.instagram.com/phillyzinefest/'>
             Philly Zine Fest - Nov 9, 2024
@@ -67,6 +67,11 @@ export const FairContent = ({ test }: any) => {
         <ListItem time={`.4s`}>
           <a href='https://www.stapleandstitchfair.com/'>
             Staple & Stitch - Nov 15-17, 2024
+          </a>
+        </ListItem>
+        <ListItem time={`.4s`}>
+          <a href='https://risoprintfair.eastcityart.com/'>
+            DC Riso Fair - Nov 23-24, 2024
           </a>
         </ListItem>
         {/* <ListItem time={`.4s`}>

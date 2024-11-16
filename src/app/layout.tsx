@@ -4,6 +4,7 @@ import './globals.css';
 import StyledComponentsRegistry from './components/registry';
 import Header from './components/Header';
 import { LoadScreen } from './components/LoadScreen';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -46,6 +47,8 @@ export default function RootLayout({
   return (
     <html lang='en'>
       {/* <LoadScreen /> */}
+      <GoogleAnalytics gaId='G-QQLXP28JYB' />
+
       <body className={'appContainer'} id='screen'>
         <StyledComponentsRegistry>
           <script

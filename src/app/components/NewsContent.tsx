@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import featuredCover from '../images/datacenters.jpg';
+import featuredCover from '../images/dataCenters.jpg';
 
 const ContentContainer = styled.div`
   padding: 0 20px 20px;

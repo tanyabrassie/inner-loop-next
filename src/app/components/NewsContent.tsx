@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import featuredCover from '../images/toxic-lagoons-southern-edition-cover.jpg';
+import featuredCover from '../images/datacenters.jpg';
 
 const ContentContainer = styled.div`
   padding: 0 20px 20px;
@@ -18,11 +18,11 @@ const imageRotate = keyframes`
   }
 `;
 
-const storeLink =
-  'https://www.store.innerloop.press/shop/p/toxic-lagoons-southern-edition';
+const storeLink = 'https://www.store.innerloop.press/shop/p/data-centers-zine';
 
 const Image = styled.img`
-  width: 80%;
+  width: 50%;
+  padding: 20px 0;
   display: block;
   margin: auto;
 
@@ -41,11 +41,13 @@ export const NewsContent = () => {
   return (
     <ContentContainer>
       <a href={storeLink}>
-        <Image src={featuredCover.src} alt='image of Space Trash zine cover' />
+        <Image src={featuredCover.src} alt='image of data centers zine cover' />
       </a>
-      Toxic Lagoons: Southern Edition is now available! The last in the Toxic
-      Lagoons series, this risograph printed zine examines very polluted places
-      called Superfund sites in the southern United States.
+      Presenting Data Centers - a zine exploring the physical aspect of the
+      internet! We don't think of them very often, and some might not even know
+      they exist, but data centers are all around us. This new zine answers such
+      questions as what is a data center, where are data centers, can data
+      centers be harmful - and others!
     </ContentContainer>
   );
 };

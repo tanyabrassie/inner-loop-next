@@ -37,6 +37,8 @@ const Image = styled.img`
   }
 `;
 
+const content = ``;
+
 export const NewsContent = () => {
   return (
     <ContentContainer>
@@ -44,9 +46,9 @@ export const NewsContent = () => {
         <Image src={featuredCover.src} alt='image of data centers zine cover' />
       </a>
       Presenting Data Centers - a zine exploring the physical aspect of the
-      internet! We don't think of them very often, and some might not even know
-      they exist, but data centers are all around us. This new zine answers such
-      questions as what is a data center, where are data centers, can data
+      internet! We don&apos;t think of them very often, and some might not even
+      know they exist, but data centers are all around us. This new zine answers
+      such questions as what is a data center, where are data centers, can data
       centers be harmful - and others!
     </ContentContainer>
   );

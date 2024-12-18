@@ -53,6 +53,7 @@ export const FairContent = ({ test }: any) => {
     <ContentContainer>
       <SectionHeader>Upcoming Events</SectionHeader>
       <List>
+        <p> ☃️ Hunkered Down for Winter</p>
         {/* <ListItem time={`.4s`}>Fall events to be announced!</ListItem> */}
         {/* <ListItem time={`.4s`}>
           <a href='https://www.instagram.com/phillycomicsexpo/'>
@@ -69,7 +70,7 @@ export const FairContent = ({ test }: any) => {
             Staple & Stitch - Nov 15-17, 2024
           </a>
         </ListItem> */}
-        <ListItem time={`.4s`}>
+        {/* <ListItem time={`.4s`}>
           <a href='https://risoprintfair.eastcityart.com/'>
             DC Riso Fair - Nov 23-24, 2024
           </a>
@@ -78,7 +79,7 @@ export const FairContent = ({ test }: any) => {
           <a href='https://partiful.com/e/VVGNnhLLBbAHG3OhdnPC'>
             Newark Zine Fest - Dec 7, 2024
           </a>
-        </ListItem>
+        </ListItem> */}
         {/* <ListItem time={`.4s`}>
           <a href='https://www.jerseyartbookfair.org/'>
             Jersey Art Book Fair - February 2024

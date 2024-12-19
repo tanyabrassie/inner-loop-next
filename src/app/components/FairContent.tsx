@@ -1,7 +1,13 @@
 import styled, { keyframes } from 'styled-components';
+import snowman from '../images/animated-snowman.gif';
 
 const ContentContainer = styled.div`
   padding: 30px 20px 20px;
+`;
+
+const SnowmanImage = styled.img`
+  flex-basis: auto;
+  width: 40px;
 `;
 
 const bulletPointParty = keyframes`
@@ -14,6 +20,7 @@ const bulletPointParty = keyframes`
 
 const List = styled.ul`
   padding: 10px 0;
+  display: flex;
 `;
 
 const ListItem = styled.li<{ time: string }>`
@@ -53,7 +60,11 @@ export const FairContent = ({ test }: any) => {
     <ContentContainer>
       <SectionHeader>Upcoming Events</SectionHeader>
       <List>
-        <p> ☃️ Hunkered Down for Winter</p>
+        <SnowmanImage
+          alt={'a pixelated gif of a snowman wiggling back and forth'}
+          src={snowman.src}
+        />
+        <p> Hunkered Down for Winter</p>
         {/* <ListItem time={`.4s`}>Fall events to be announced!</ListItem> */}
         {/* <ListItem time={`.4s`}>
           <a href='https://www.instagram.com/phillycomicsexpo/'>

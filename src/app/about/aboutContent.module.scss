@@ -27,6 +27,7 @@ $maxWidth: 600px;
   animation-name: appear;
   animation-duration: 0.5s;
   height: 100%;
+  min-height: max-content;
 }
 
 .header {
@@ -64,7 +65,12 @@ $maxWidth: 600px;
   }
 
   li {
-    font-size: 12px;
+    font-size: 16px;
     padding: 2px;
   }
+}
+
+.smallText {
+  font-size: 12px;
+  padding-left: 5px;
 }

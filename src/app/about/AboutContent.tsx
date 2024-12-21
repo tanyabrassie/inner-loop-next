@@ -19,7 +19,7 @@ export const AboutContent = () => {
             Brassie in Philadelphia, PA.
           </p>
           <p>
-            We primarily publish educational zines on topics related to the
+            It primarily publishes educational zines on topics related to the
             environment, technology and society, as well as posters and lighter
             fair!
           </p>
@@ -47,6 +47,35 @@ export const AboutContent = () => {
               <a href='https://printedmatter.org/'>Printed Matter</a>
               New York, NY
             </li>
+          </ul>
+        </div>
+        <div className={styles.textContent}>
+          <h1 className={styles.stockists}>Fairs</h1>
+          <ul>
+            <li>
+              Jersey Art Book Fair
+              <span className={styles.smallText}>2023, 2024</span>
+            </li>
+            <li>
+              Multiple Formats
+              <span className={styles.smallText}>2023, 2024</span>
+            </li>
+            <li>
+              printPhilly! <span className={styles.smallText}>2023, 2024</span>
+            </li>
+            <li>
+              Capital Art Book Fair
+              <span className={styles.smallText}>2023, 2024</span>
+            </li>
+            <li>
+              Printed Matter LAABF
+              <span className={styles.smallText}>2023</span>
+            </li>
+            <li>
+              Boston Art Book Fair
+              <span className={styles.smallText}>2023</span>
+            </li>
+            <li></li>
           </ul>
         </div>
       </div>

@@ -47,32 +47,33 @@ export const AboutContent = () => {
               <a href='https://printedmatter.org/'>Printed Matter</a>
               New York, NY
             </li>
+            <li>
+              <a href='https://www.quimbys.com/'>Quimby's</a>
+              Chicago, IL
+            </li>
           </ul>
         </div>
         <div className={styles.textContent}>
           <h1 className={styles.stockists}>Fairs</h1>
           <ul>
             <li>
-              Jersey Art Book Fair
+              Jersey Art Book Fair -
               <span className={styles.smallText}>2023, 2024</span>
             </li>
             <li>
-              Multiple Formats
+              Multiple Formats -
               <span className={styles.smallText}>2023, 2024</span>
             </li>
             <li>
-              printPhilly! <span className={styles.smallText}>2023, 2024</span>
-            </li>
-            <li>
-              Capital Art Book Fair
+              Capital Art Book Fair -
               <span className={styles.smallText}>2023, 2024</span>
             </li>
             <li>
-              Printed Matter LAABF
+              Printed Matter LAABF -
               <span className={styles.smallText}>2023</span>
             </li>
             <li>
-              Boston Art Book Fair
+              Boston Art Book Fair -
               <span className={styles.smallText}>2023</span>
             </li>
             <li></li>

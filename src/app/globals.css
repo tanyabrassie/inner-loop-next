@@ -115,6 +115,10 @@ code {
   border: 2px solid #464545;
 
   animation: disableScroll 4s;
+
+  overflow: scroll;
+  scrollbar-color: #955ffb #ff6161;
+  scrollbar-width: thin;
 }
 
 @media screen and (max-width: 1024px) {

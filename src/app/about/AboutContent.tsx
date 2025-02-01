@@ -48,7 +48,7 @@ export const AboutContent = () => {
               New York, NY
             </li>
             <li>
-              <a href='https://quimbys.com/'>Quimby&aposs</a>
+              <a href='https://quimbys.com/'>Quimby&apos;s</a>
               Chicago, IL
             </li>
           </ul>

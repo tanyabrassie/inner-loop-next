@@ -60,17 +60,17 @@ export const FairContent = ({ test }: any) => {
     <ContentContainer>
       <SectionHeader>Upcoming Events</SectionHeader>
       <List>
-        <SnowmanImage
+        {/* <SnowmanImage
           alt={'a pixelated gif of a snowman wiggling back and forth'}
           src={snowman.src}
         />
-        <p> Hunkered Down for Winter</p>
+        <p> Hunkered Down for Winter</p> */}
         {/* <ListItem time={`.4s`}>Fall events to be announced!</ListItem> */}
-        {/* <ListItem time={`.4s`}>
-          <a href='https://www.instagram.com/phillycomicsexpo/'>
-            Philly Comics Expo - Oct 12, 2024
+        <ListItem time={`.4s`}>
+          <a href='https://www.jerseyartbookfair.org/'>
+            Jersey Art Book Fair - Feb 21-23, 2025
           </a>
-        </ListItem> */}
+        </ListItem>
         {/* <ListItem time={`.4s`}>
           <a href='https://www.instagram.com/phillyzinefest/'>
             Philly Zine Fest - Nov 9, 2024

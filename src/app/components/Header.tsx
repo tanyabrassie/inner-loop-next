@@ -35,7 +35,7 @@ const Header = () => {
       <div className={headerStyles.aboutContainer}>
         <div>
           <p className={headerStyles.aboutText}>
-            <i>Printing information as art!</i>
+            <i>Information as art!</i>
             <br></br>
             A small-batch <br />
             Risograph printing press

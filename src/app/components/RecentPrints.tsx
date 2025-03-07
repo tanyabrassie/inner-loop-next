@@ -19,6 +19,7 @@ import toxicLagoonsSpread from '../images/toxic-lagoons-southern-spread.jpg';
 import bloomers from '../images/bloomers.webp';
 import leisurePoster from '../images/leisure.webp';
 import materialsSpread from '../images/materials-spread.webp';
+import cooperationPoster from '../images/Cooperation-blue.jpg';
 
 import NextImage from 'next/image';
 
@@ -45,6 +46,13 @@ const Text = styled.strong`
 export const RecentPrintContent = () => {
   return (
     <ContentContainer>
+      <Image
+        loading={'eager'}
+        priority={true}
+        src={cooperationPoster}
+        alt='Cooperation poster'
+      />
+
       <Image
         loading={'eager'}
         priority={true}

@@ -34,7 +34,7 @@ export const AboutContent = () => {
               Philadelphia, PA
             </li>
             <li>
-              <a href='https://www.noniphilly.com/'>Noni</a> Philadelphia, PA
+              <a href='https://atmyhou.se/'>At My House</a> Philadelphia, PA
             </li>
             <li>
               <a href='https://atomicbooks.com/'>Atomic Books</a>

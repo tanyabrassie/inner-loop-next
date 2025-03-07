@@ -67,8 +67,8 @@ export const FairContent = ({ test }: any) => {
         <p> Hunkered Down for Winter</p> */}
         {/* <ListItem time={`.4s`}>Fall events to be announced!</ListItem> */}
         <ListItem time={`.4s`}>
-          <a href='https://www.jerseyartbookfair.org/'>
-            Jersey Art Book Fair - Feb 21-23, 2025
+          <a href='https://artbookfair.eastcityart.com/'>
+            Capital Art Book Fair - April 5-6, 2025
           </a>
         </ListItem>
         {/* <ListItem time={`.4s`}>

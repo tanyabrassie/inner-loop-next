@@ -56,7 +56,7 @@ export const AboutContent = () => {
               Chicago, IL
             </li>
             <li>
-              <a href='https://peoplesbooktakoma.com/'>People's Book</a>
+              <a href='https://peoplesbooktakoma.com/'>People&apos;s Book</a>
               Takoma Park, Maryland
             </li>
           </ul>

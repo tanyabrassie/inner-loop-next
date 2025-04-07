@@ -27,10 +27,14 @@ export const AboutContent = () => {
         <div className={styles.textContent}>
           <h1 className={styles.stockists}>Stockists</h1>
 
-          <p>You can find inner loop press publications and prints at:</p>
+          <p>You can find inner loop press publications/prints at:</p>
           <ul>
             <li>
               <a href='https://partnersandson.com/'>Partners & Son</a>
+              Philadelphia, PA
+            </li>
+            <li>
+              <a href='https://anovelideaphilly.com/'>A Novel Idea</a>
               Philadelphia, PA
             </li>
             <li>
@@ -38,7 +42,7 @@ export const AboutContent = () => {
             </li>
             <li>
               <a href='https://atomicbooks.com/'>Atomic Books</a>
-              Balitmore, MD
+              Baltimore, MD
             </li>
             <li>
               <a href='https://draw-down.com//'>Draw Down Books</a>
@@ -50,6 +54,10 @@ export const AboutContent = () => {
             <li>
               <a href='https://quimbys.com/'>Quimby&apos;s</a>
               Chicago, IL
+            </li>
+            <li>
+              <a href='https://peoplesbooktakoma.com/'>People's Book</a>
+              Takoma Park, Maryland
             </li>
           </ul>
         </div>

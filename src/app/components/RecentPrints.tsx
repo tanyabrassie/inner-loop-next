@@ -17,6 +17,7 @@ import eWasteSpread from '../images/e-waste-spread.png';
 import spaceTrashCover from '../images/space-trash-cover.webp';
 import toxicLagoonsSpread from '../images/toxic-lagoons-southern-spread.jpg';
 import bloomers from '../images/bloomers.webp';
+import bloomersTwo from '../images/bloomers2.jpg';
 import leisurePoster from '../images/leisure.webp';
 import materialsSpread from '../images/materials-spread.webp';
 import cooperationPoster from '../images/Cooperation-blue.jpg';
@@ -49,15 +50,23 @@ export const RecentPrintContent = () => {
       <Image
         loading={'eager'}
         priority={true}
+        src={bloomersTwo}
+        alt='Blooming Flowers'
+      />
+
+      <Image
+        loading={'eager'}
+        priority={true}
         src={cooperationPoster}
         alt='Cooperation poster'
       />
 
       <Image
         loading={'eager'}
+        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
+        src={spaceTrashSpread}
         priority={true}
-        src={bloomers}
-        alt='Blooming Flowers'
+        alt='image of Space Trash zine.'
       />
 
       <Image

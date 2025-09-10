@@ -61,19 +61,29 @@ export const FairContent = ({ test }: any) => {
     <ContentContainer>
       <SectionHeader>Upcoming Events</SectionHeader>
       <List>
-        <ListItem time={`.4s`}>
+        {/* <ListItem time={`.4s`}>
           <a href='https://artbookfair.eastcityart.com/'>
             Capital Art Book Fair - Apr 5-6, 2025
           </a>
-        </ListItem>
-        <ListItem time={``}>
+        </ListItem> */}
+        {/* <ListItem time={``}>
           <a href='https://printphilly.org/printphilly-2025/'>
             printPhilly! - Apr 12, 2025
           </a>
+        </ListItem> */}
+        <ListItem time={``}>
+          <a href='https://pabf.cargo.site/'>
+            Pittsburgh Art Book Fair - Sept 20-21, 2025
+          </a>
         </ListItem>
         <ListItem time={``}>
-          <a href='https://www.seattleartbookfair.org/'>
-            Seattle Art Book Fair - May 11-12, 2025
+          <a href='https://www.instagram.com/yourstrulymarket'>
+            Yours Truly Market, Bok Gym - Sept 28, 2025
+          </a>
+        </ListItem>
+        <ListItem time={``}>
+          <a href='https://www.phillyzinefest.org/'>
+            Philly Zine Fest - Nov 1, 2025
           </a>
         </ListItem>
       </List>

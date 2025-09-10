@@ -27,6 +27,8 @@ const List = styled.ul`
 const ListItem = styled.li<{ time: string }>`
   list-style-type: none;
   margin-inline-start: 5px;
+  line-height: 0.4;
+  padding-top: 14px;
 
   a {
     text-decoration: none;

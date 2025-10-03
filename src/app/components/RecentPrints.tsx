@@ -11,6 +11,8 @@ import spaceTrashSpread from '../images/space-trash-spread.webp';
 import posturePoster from '../images/posture-scan.webp';
 import learningPoster from '../images/learning.webp';
 import eyePoster from '../images/eye-doctor.webp';
+import bikePoster from '../images/SupportProtectedBikeLanes-Slim.jpg';
+import walkableCity from '../images/walkable-city-purple-slim.jpg';
 
 import userFriendly from '../images/user-friendly.webp';
 import eWasteSpread from '../images/e-waste-spread.png';
@@ -50,17 +52,27 @@ export const RecentPrintContent = () => {
       <Image
         loading={'eager'}
         priority={true}
+        src={walkableCity}
+        alt='Philly, a walkable city! poster'
+      />
+      <Image
+        loading={'eager'}
+        priority={true}
+        src={bikePoster}
+        alt='Support Protected Bike Lanes Poster'
+      />
+      <Image
+        loading={'eager'}
+        priority={true}
         src={bloomersTwo}
         alt='Blooming Flowers'
       />
-
       <Image
         loading={'eager'}
         priority={true}
         src={cooperationPoster}
         alt='Cooperation poster'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
@@ -68,14 +80,12 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='image of Space Trash zine.'
       />
-
       <Image
         loading={'eager'}
         priority={true}
         src={toxicEarth}
         alt='Radioactive Land Poster'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
@@ -83,7 +93,6 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='image of poster with an eye inspired imagery.'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
@@ -91,7 +100,6 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='image of Poster poster'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
@@ -99,7 +107,6 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='image of Space Trash zine.'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
@@ -107,7 +114,6 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='Image of inside spread of Toxic Lagoons zine'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
@@ -115,7 +121,6 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='triangle pile poster image'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
@@ -123,7 +128,6 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='image of Data Zooms poster'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
@@ -131,7 +135,6 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='image of Learning Poster'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
@@ -139,14 +142,12 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='image of Nature Blur Poster'
       />
-
       <Image
         loading={'eager'}
         priority={true}
         src={materialsSpread}
         alt='Materials zine inside spread.'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 0200px) 50vw'
@@ -154,7 +155,6 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='scan of an inside spread of e-waste zine.'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 0200px) 50vw'
@@ -162,7 +162,6 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='Space Trash Zine cover'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
@@ -170,7 +169,6 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='image of poster with an illustration of a sexy book on it.'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
@@ -178,7 +176,6 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='scan of an inside spread of e-waste zine.'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'
@@ -193,7 +190,6 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='image of Space House poster'
       />
-
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 50vw'

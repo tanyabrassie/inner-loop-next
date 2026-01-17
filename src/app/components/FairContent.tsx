@@ -74,13 +74,13 @@ export const FairContent = ({ test }: any) => {
           </a>
         </ListItem> */}
         <ListItem time={``}>
-          <a href='https://pabf.cargo.site/'>
-            Pittsburgh Art Book Fair
+          <a href='https://printphilly.org/'>
+            PrintPhilly!
             <br />
-            Sept 20-21, 2025
+            Feburary 28, 2025
           </a>
         </ListItem>
-        <ListItem time={``}>
+        {/* <ListItem time={``}>
           <a href='https://www.instagram.com/yourstrulymarket'>
             Yours Truly Market, Bok Gym
             <br />
@@ -93,7 +93,7 @@ export const FairContent = ({ test }: any) => {
             <br />
             Nov 1, 2025
           </a>
-        </ListItem>
+        </ListItem> */}
       </List>
     </ContentContainer>
   );

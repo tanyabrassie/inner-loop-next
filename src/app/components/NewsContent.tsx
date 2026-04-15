@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import featuredCover from '../images/dataCenters.jpg';
+import featuredCover from '../images/mascot-mania-cover.png';
 
 const ContentContainer = styled.div`
   padding: 0 20px 20px;
@@ -18,7 +18,7 @@ const imageRotate = keyframes`
   }
 `;
 
-const storeLink = 'https://www.store.innerloop.press/shop/p/data-centers-zine';
+const storeLink = 'https://www.store.innerloop.press/shop/p/mascot-mania-zine';
 
 const Image = styled.img`
   width: 50%;
@@ -37,19 +37,15 @@ const Image = styled.img`
   }
 `;
 
-const content = ``;
-
 export const NewsContent = () => {
   return (
     <ContentContainer>
       <a href={storeLink}>
         <Image src={featuredCover.src} alt='image of data centers zine cover' />
       </a>
-      Presenting Data Centers - a zine exploring the physical aspect of the
-      internet! We don&apos;t think of them very often, and some might not even
-      know they exist, but data centers are all around us. This new zine answers
-      such questions as what is a data center, where are data centers, can data
-      centers be harmful - and others!
+      Mascot Mania is here! If you love sports mascots, this zine is for you!
+      Learn all about the rise of the modern mascot, forgotten Philadelphia
+      sports mascots and mascots for the city of Philadelphia.
     </ContentContainer>
   );
 };

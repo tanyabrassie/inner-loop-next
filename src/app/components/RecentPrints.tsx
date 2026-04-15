@@ -23,6 +23,8 @@ import bloomersTwo from '../images/bloomers2.jpg';
 import leisurePoster from '../images/leisure.webp';
 import materialsSpread from '../images/materials-spread.webp';
 import cooperationPoster from '../images/Cooperation-blue.jpg';
+import bloomers2025 from '../images/bloomers-poster-2025.webp';
+import workstationLoaf from '../images/workstation-loaf.webp';
 
 import NextImage from 'next/image';
 
@@ -52,15 +54,16 @@ export const RecentPrintContent = () => {
       <Image
         loading={'eager'}
         priority={true}
-        src={walkableCity}
-        alt='Philly, a walkable city! poster'
+        src={workstationLoaf}
+        alt='A sad man sits at a computer'
       />
       <Image
         loading={'eager'}
         priority={true}
-        src={bikePoster}
-        alt='Support Protected Bike Lanes Poster'
+        src={bloomers2025}
+        alt='Bloomers, flowers in a vase'
       />
+
       <Image
         loading={'eager'}
         priority={true}
@@ -114,6 +117,7 @@ export const RecentPrintContent = () => {
         priority={true}
         alt='Image of inside spread of Toxic Lagoons zine'
       />
+
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
@@ -124,16 +128,21 @@ export const RecentPrintContent = () => {
       <Image
         loading={'eager'}
         sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
-        src={stretchPeach}
-        priority={true}
-        alt='image of Data Zooms poster'
-      />
-      <Image
-        loading={'eager'}
-        sizes='(max-width: 768px) 100vw, (max-width: 1000px) 25vw'
         src={learningPoster}
         priority={true}
         alt='image of Learning Poster'
+      />
+      <Image
+        loading={'eager'}
+        priority={true}
+        src={walkableCity}
+        alt='Philly, a walkable city! poster'
+      />
+      <Image
+        loading={'eager'}
+        priority={true}
+        src={bikePoster}
+        alt='Support Protected Bike Lanes Poster'
       />
       <Image
         loading={'eager'}

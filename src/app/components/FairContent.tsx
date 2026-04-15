@@ -74,26 +74,26 @@ export const FairContent = ({ test }: any) => {
           </a>
         </ListItem> */}
         <ListItem time={``}>
-          <a href='https://printphilly.org/'>
-            PrintPhilly!
+          <a href='https://otherislands.designfuture.space/'>
+            Other Islands Book Fair
             <br />
-            Feburary 28, 2025
-          </a>
-        </ListItem>
-        {/* <ListItem time={``}>
-          <a href='https://www.instagram.com/yourstrulymarket'>
-            Yours Truly Market, Bok Gym
-            <br />
-            Sept 28, 2025
+            April 25-26, 2026
           </a>
         </ListItem>
         <ListItem time={``}>
-          <a href='https://www.phillyzinefest.org/'>
-            Philly Zine Fest
+          <a href='https://www.eventeny.com/events/jersey-art-book-fair-2026-23583/'>
+            Jersey Art Book Fair
             <br />
-            Nov 1, 2025
+            May 2, 2026
           </a>
-        </ListItem> */}
+        </ListItem>
+        <ListItem time={``}>
+          <a href='https://www.seattleartbookfair.org/'>
+            Seattle Art Book Fair
+            <br />
+            May 9-10, 2026
+          </a>
+        </ListItem>
       </List>
     </ContentContainer>
   );

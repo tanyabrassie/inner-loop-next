@@ -24,7 +24,8 @@
   display: flex;
   flex-direction: column;
   grid-gap: 40px;
-  top: -120px;
+  top: 40px;
+  /* top: -120px; 3 items*/
   align-self: start;
 
   @media screen and (max-width: 1024px) {

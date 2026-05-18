@@ -24,7 +24,6 @@ import leisurePoster from '../images/leisure.webp';
 import materialsSpread from '../images/materials-spread.webp';
 import cooperationPoster from '../images/Cooperation-blue.jpg';
 import bloomers2025 from '../images/bloomers-poster-2025.webp';
-import workstationLoaf from '../images/workstation-loaf.webp';
 
 import NextImage from 'next/image';
 
@@ -51,12 +50,6 @@ const Text = styled.strong`
 export const RecentPrintContent = () => {
   return (
     <ContentContainer>
-      <Image
-        loading={'eager'}
-        priority={true}
-        src={workstationLoaf}
-        alt='A sad man sits at a computer'
-      />
       <Image
         loading={'eager'}
         priority={true}

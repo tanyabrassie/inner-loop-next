@@ -36,7 +36,7 @@ const ListItem = styled.li<{ time: string }>`
     color: black;
 
     &:hover {
-      border-bottom: 1px solid black;
+      text-decoration-line: underline;
     }
   }
 
@@ -73,13 +73,13 @@ export const FairContent = ({ test }: any) => {
             printPhilly! - Apr 12, 2025
           </a>
         </ListItem> */}
-        <ListItem time={``}>
+        {/* <ListItem time={``}>
           <a href='https://otherislands.designfuture.space/'>
             Other Islands Book Fair
             <br />
             April 25-26, 2026
           </a>
-        </ListItem>
+        </ListItem> */}
         <ListItem time={``}>
           <a href='https://www.eventeny.com/events/jersey-art-book-fair-2026-23583/'>
             Jersey Art Book Fair
